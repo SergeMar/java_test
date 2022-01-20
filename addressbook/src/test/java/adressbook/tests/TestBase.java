@@ -4,18 +4,20 @@ import adressbook.appmanager.ApplicationManager;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 
+import static org.openqa.selenium.remote.BrowserType.*;
+
 public class TestBase {
 
-    protected ApplicationManager app = new ApplicationManager();
+    protected static ApplicationManager app = new ApplicationManager(EDGE);
 
     @BeforeAll
     public static void setUp() throws Exception {
-        ApplicationManager.init();
+        app.init();
     }
 
     @AfterAll
     public static void tearDown() throws Exception {
-        ApplicationManager.stop();
+        app.stop();
     }
 
 }
