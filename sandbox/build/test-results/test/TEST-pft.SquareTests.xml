@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pft.SquareTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-13T14:31:47" hostname="DESKTOP-P3FKE3U" time="0.023">
-  <properties/>
-  <testcase name="testArea()" classname="pft.SquareTests" time="0.023"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
