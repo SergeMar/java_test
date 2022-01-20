@@ -7,8 +7,6 @@
     <list default="true" id="d2f0df04-7625-4b2a-850e-80e1be32c8e0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/adressbook/appmanager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adressbook/appmanager/GroupHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adressbook/appmanager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adressbook/appmanager/NavigationHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adressbook/appmanager/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adressbook/appmanager/SessionHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
       <recent name="adressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'adressbook'">
+  <component name="RunManager" selected="Gradle.GroupModificationTests.testGroupModification">
     <configuration name="GroupCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -96,12 +94,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GroupDeletionTests.testGroupDeletion" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GroupModificationTests.testGroupModification" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;adressbook.GroupDeletionTests.testGroupDeletion&quot;" />
+        <option name="scriptParameters" value="--tests &quot;adressbook.tests.GroupModificationTests.testGroupModification&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -161,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Tests in 'adressbook'" />
+        <item itemvalue="Gradle.GroupModificationTests.testGroupModification" />
         <item itemvalue="Gradle.GroupCreationTests" />
+        <item itemvalue="Gradle.Tests in 'adressbook'" />
         <item itemvalue="Gradle.Tests in 'adressbook.tests'" />
         <item itemvalue="Gradle.GroupCreationTests.testGroupCreation" />
-        <item itemvalue="Gradle.GroupDeletionTests.testGroupDeletion" />
       </list>
     </recent_temporary>
   </component>
