@@ -1,6 +1,5 @@
 package adressbook.appmanager;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -11,10 +10,10 @@ import java.util.concurrent.TimeUnit;
 import static org.openqa.selenium.remote.BrowserType.*;
 
 public class ApplicationManager {
-    static WebDriver driver;
 
     private static SessionHelper sessionHelper;
     private static GroupHelper groupHelper;
+    private static ContactHelper contactHelper;
     private static NavigationHelper navigationHelper;
     private static String browser;
 
@@ -23,25 +22,26 @@ public class ApplicationManager {
     }
 
     public static void init() {
-        if (browser == CHROME) {
-            driver = new ChromeDriver();
-        } else if (browser == FIREFOX) {
-            driver = new FirefoxDriver();
-        } else if (browser == IE) {
-            driver = new InternetExplorerDriver();
-        } else if (browser == EDGE) {
-            driver = new EdgeDriver();
+        if (browser.equals(CHROME)) {
+            ContactHelper.driver = new ChromeDriver();
+        } else if (browser.equals(FIREFOX)) {
+            ContactHelper.driver = new FirefoxDriver();
+        } else if (browser.equals(IE)) {
+            ContactHelper.driver = new InternetExplorerDriver();
+        } else if (browser.equals(EDGE)) {
+            ContactHelper.driver = new EdgeDriver();
         }
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        driver.get("http://localhost/addressbook/group.php");
-        groupHelper = new GroupHelper(driver);
-        navigationHelper = new NavigationHelper(driver);
-        sessionHelper = new SessionHelper(driver);
+        ContactHelper.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        ContactHelper.driver.get("http://localhost/addressbook/group.php");
+        groupHelper = new GroupHelper(ContactHelper.driver);
+        navigationHelper = new NavigationHelper(ContactHelper.driver);
+        contactHelper = new ContactHelper(ContactHelper.driver);
+        sessionHelper = new SessionHelper(ContactHelper.driver);
         sessionHelper.login("admin", "secret");
     }
 
     public static void stop() {
-        driver.quit();
+        ContactHelper.driver.quit();
     }
 
     public GroupHelper getGroupHelper() {
@@ -50,5 +50,9 @@ public class ApplicationManager {
 
     public NavigationHelper getNavigationHelper() {
         return navigationHelper;
+    }
+
+    public ContactHelper getContactHelper() {
+        return contactHelper;
     }
 }

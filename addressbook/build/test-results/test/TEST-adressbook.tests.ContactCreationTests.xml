@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="adressbook.tests.ContactCreationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-24T19:01:58" hostname="DESKTOP-P3FKE3U" time="0.895">
+  <properties/>
+  <testcase name="testContactCreation()" classname="adressbook.tests.ContactCreationTests" time="0.895"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting MSEdgeDriver 97.0.1072.62 (c0ec8d7178dacb8102d7ae0d98870bd1ad84e7df) on port 63333
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+янв. 24, 2022 10:01:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+янв. 24, 2022 10:01:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 97, so returning the closest version found: 96
+янв. 24, 2022 10:01:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 97 of 96
+]]></system-err>
+</testsuite>

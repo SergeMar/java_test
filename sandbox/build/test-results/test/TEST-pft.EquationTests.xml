@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pft.EquationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-01-20T16:00:49" hostname="DESKTOP-P3FKE3U" time="0.029">
+<testsuite name="pft.EquationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-01-24T12:19:41" hostname="DESKTOP-P3FKE3U" time="0.046">
   <properties/>
-  <testcase name="test0()" classname="pft.EquationTests" time="0.019"/>
+  <testcase name="test0()" classname="pft.EquationTests" time="0.037"/>
   <testcase name="test1()" classname="pft.EquationTests" time="0.001"/>
   <testcase name="test2()" classname="pft.EquationTests" time="0.001"/>
   <testcase name="test3()" classname="pft.EquationTests" time="0.002"/>
-  <testcase name="test4()" classname="pft.EquationTests" time="0.002"/>
-  <testcase name="test5()" classname="pft.EquationTests" time="0.001"/>
+  <testcase name="test4()" classname="pft.EquationTests" time="0.001"/>
+  <testcase name="test5()" classname="pft.EquationTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
