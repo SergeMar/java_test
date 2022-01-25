@@ -1,5 +1,6 @@
 package adressbook.appmanager;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -16,6 +17,7 @@ public class ApplicationManager {
     private static ContactHelper contactHelper;
     private static NavigationHelper navigationHelper;
     private static String browser;
+    private static WebDriver driver;
 
     public ApplicationManager(String browser) {
         this.browser = browser;
@@ -23,25 +25,25 @@ public class ApplicationManager {
 
     public static void init() {
         if (browser.equals(CHROME)) {
-            ContactHelper.driver = new ChromeDriver();
+            driver = new ChromeDriver();
         } else if (browser.equals(FIREFOX)) {
-            ContactHelper.driver = new FirefoxDriver();
+            driver = new FirefoxDriver();
         } else if (browser.equals(IE)) {
-            ContactHelper.driver = new InternetExplorerDriver();
+           driver = new InternetExplorerDriver();
         } else if (browser.equals(EDGE)) {
-            ContactHelper.driver = new EdgeDriver();
+            driver = new EdgeDriver();
         }
-        ContactHelper.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        ContactHelper.driver.get("http://localhost/addressbook/group.php");
-        groupHelper = new GroupHelper(ContactHelper.driver);
-        navigationHelper = new NavigationHelper(ContactHelper.driver);
-        contactHelper = new ContactHelper(ContactHelper.driver);
-        sessionHelper = new SessionHelper(ContactHelper.driver);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.get("http://localhost/addressbook/group.php");
+        groupHelper = new GroupHelper(driver);
+        navigationHelper = new NavigationHelper(driver);
+        contactHelper = new ContactHelper(driver);
+        sessionHelper = new SessionHelper(driver);
         sessionHelper.login("admin", "secret");
     }
 
     public static void stop() {
-        ContactHelper.driver.quit();
+        driver.quit();
     }
 
     public GroupHelper getGroupHelper() {

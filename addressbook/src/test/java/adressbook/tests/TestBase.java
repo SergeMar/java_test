@@ -19,5 +19,4 @@ public class TestBase {
     public static void tearDown() throws Exception {
         app.stop();
     }
-
 }
