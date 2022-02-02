@@ -10,9 +10,7 @@ public class GroupHelper extends HelperBase {
         super(driver);
     }
 
-    public void returnToGroupPage() {
-        click(By.linkText("group page"));
-    }
+
 
     public void submitGroup() {
         click(By.name("submit"));
@@ -24,7 +22,7 @@ public class GroupHelper extends HelperBase {
         type(By.name("group_footer"), groupData.getFooter());
     }
 
-    public void createGroup() {
+    public void submitNewGroup() {
         click(By.name("new"));
     }
 
@@ -43,4 +41,22 @@ public class GroupHelper extends HelperBase {
     public void submitGroupModification() {
         click(By.name("update"));
     }
+
+
+    public void returnToGroupPage() {
+        click(By.linkText("group page"));
+    }
+
+    public void createGroup(GroupData group) {
+        submitNewGroup();
+        fillFields(group);
+        submitGroup();
+        returnToGroupPage();
+
+    }
+
+    public boolean isThereAGroup() {
+        return isElementPresent(By.name("selected[]"));
+    }
+
 }

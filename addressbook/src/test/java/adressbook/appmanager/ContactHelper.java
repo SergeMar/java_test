@@ -11,10 +11,6 @@ public class ContactHelper extends HelperBase {
         super(driver);
     }
 
-    public void returnToHomePage() {
-        click(By.linkText("home page"));
-    }
-
     public void createContact() {
         click(By.name("submit"));
     }
@@ -70,4 +66,5 @@ public class ContactHelper extends HelperBase {
     public void goToHomePage() {
         click(By.linkText("home"));
     }
+
 }
