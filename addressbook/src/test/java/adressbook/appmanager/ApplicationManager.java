@@ -33,8 +33,8 @@ public class ApplicationManager {
         } else if (browser.equals(EDGE)) {
             driver = new EdgeDriver();
         }
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        driver.get("http://localhost/addressbook/group.php");
+        driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+        driver.get("http://localhost/addressbook/");
         groupHelper = new GroupHelper(driver);
         navigationHelper = new NavigationHelper(driver);
         contactHelper = new ContactHelper(driver);

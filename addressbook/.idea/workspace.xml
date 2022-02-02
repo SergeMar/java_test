@@ -5,40 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2f0df04-7625-4b2a-850e-80e1be32c8e0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/adressbook/appmanager/ContactHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/adressbook/appmanager/ContactHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/adressbook/appmanager/GroupHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/adressbook/appmanager/GroupHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/adressbook/appmanager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/adressbook/appmanager/HelperBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/adressbook/appmanager/NavigationHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/adressbook/appmanager/NavigationHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/adressbook/tests/ContactCreationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/adressbook/tests/ContactCreationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/adressbook/tests/GroupCreationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/adressbook/tests/GroupCreationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/adressbook/tests/GroupDeletionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/adressbook/tests/GroupDeletionTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/adressbook/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/adressbook/tests/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/adressbook.tests.ContactCreationTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/adressbook.tests.ContactModificationTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/adressbook.tests.GroupCreationTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/adressbook.tests.GroupDeletionTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/adressbook.tests.GroupDeletionTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/adressbook.tests.GroupModificationTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/adressbook.tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/adressbook.tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-adressbook.tests.ContactCreationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-adressbook.tests.ContactModificationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-adressbook.tests.GroupCreationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-adressbook.tests.GroupDeletionTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-adressbook.tests.GroupDeletionTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-adressbook.tests.GroupModificationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adressbook/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adressbook/appmanager/ContactHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/adressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adressbook/appmanager/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/adressbook/appmanager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adressbook/appmanager/GroupHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/adressbook/appmanager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adressbook/appmanager/HelperBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/adressbook/appmanager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adressbook/appmanager/NavigationHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adressbook/tests/ContactCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adressbook/tests/ContactCreationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/adressbook/tests/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adressbook/tests/GroupCreationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/adressbook/tests/GroupDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adressbook/tests/GroupDeletionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adressbook/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adressbook/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/adressbook/tests/GroupModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adressbook/tests/GroupModificationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sandbox/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sandbox/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sandbox/build/reports/tests/test/classes/pft.EquationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sandbox/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../sandbox/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sandbox/build/reports/tests/test/packages/pft.html" beforeDir="false" afterPath="$PROJECT_DIR$/../sandbox/build/reports/tests/test/packages/pft.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sandbox/build/test-results/test/TEST-pft.EquationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sandbox/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../sandbox/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sandbox/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../sandbox/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sandbox/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../sandbox/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,28 +75,7 @@
       <recent name="adressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GroupDeletionTests">
-    <configuration name="ContactCreationTests.testContactCreation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;adressbook.tests.ContactCreationTests.testContactCreation&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.GroupModificationTests">
     <configuration name="ContactModificationTests.testsContactModification" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -157,12 +118,33 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GroupDeletionTests.testGroupDeletion" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GroupModificationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;adressbook.tests.GroupDeletionTests.testGroupDeletion&quot;" />
+        <option name="scriptParameters" value="--tests &quot;adressbook.tests.GroupModificationTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GroupModificationTests.testGroupModification" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;adressbook.tests.GroupModificationTests.testGroupModification&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -201,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GroupModificationTests" />
         <item itemvalue="Gradle.GroupDeletionTests" />
-        <item itemvalue="Gradle.GroupDeletionTests.testGroupDeletion" />
         <item itemvalue="Gradle.Tests in 'adressbook.tests'" />
+        <item itemvalue="Gradle.GroupModificationTests.testGroupModification" />
         <item itemvalue="Gradle.ContactModificationTests.testsContactModification" />
-        <item itemvalue="Gradle.ContactCreationTests.testContactCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -234,16 +216,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/adressbook/tests/GroupDeletionTests.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -31,8 +31,6 @@ public class HelperBase {
             return true;
         } catch (NoSuchElementException e) {
             return false;
-        } finally {
-            driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
         }
     }
 
