@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class ContactCreationTests extends TestBase {
 
     @Test
-    public void testContactCreation() throws Exception {
+    public void testContactCreation() {
         app.getContactHelper().contactAdd();
         app.getContactHelper().fillFields(new ContactData("Name", "Surname", "test"));
         app.getContactHelper().selectGroup("test1");
