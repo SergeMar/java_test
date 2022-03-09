@@ -1,10 +1,12 @@
 package adressbook.tests;
 
 import adressbook.model.ContactData;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 public class ContactModificationTests extends TestBase {
 
+    @Disabled
     @Test
     public void testsContactModification() {
 

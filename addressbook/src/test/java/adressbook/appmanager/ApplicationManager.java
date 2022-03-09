@@ -23,7 +23,7 @@ public class ApplicationManager {
         this.browser = browser;
     }
 
-    public static void init() {
+    public void init() {
         if (browser.equals(CHROME)) {
             driver = new ChromeDriver();
         } else if (browser.equals(FIREFOX)) {
@@ -42,15 +42,15 @@ public class ApplicationManager {
         sessionHelper.login("admin", "secret");
     }
 
-    public static void stop() {
+    public void stop() {
         driver.quit();
     }
 
-    public GroupHelper getGroupHelper() {
+    public GroupHelper group() {
         return groupHelper;
     }
 
-    public NavigationHelper getNavigationHelper() {
+    public NavigationHelper goTo() {
         return navigationHelper;
     }
 
